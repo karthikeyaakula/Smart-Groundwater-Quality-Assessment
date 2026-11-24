@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+.venv/
+venv/
+
+# Raw government dataset (download separately; respect portal terms)
+data/*.csv
+
+# Generated models/results are regenerated locally
+models/*.joblib
+results/*.csv
+results/*.json
+results/*.png
+
+# Local config/secrets
+.env
+.streamlit/secrets.toml
+
+# OS/editor files
+.DS_Store
+Thumbs.db
